@@ -4,10 +4,16 @@ module.exports = withNativeFederation({
 
   name: 'appProducts',
 
+
+/*   exposes: {
+    './Component': './projects/app-products/src/app/app.component.ts',
+  }, */
+
   exposes: {
     './Component': './projects/app-products/src/app/app.component.ts',
+    './routes': './projects/app-products/src/app/app.routes.ts',
   },
-
+  //"./routes": "./projects/app-products-remote/src/app/app.routes.ts",
   shared: {
     ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
   },
