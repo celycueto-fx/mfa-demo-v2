@@ -16,7 +16,7 @@ export class AppComponent {
 
   ngOnInit(): void {
 
-      console.log('ngOnInit...')
+     /*  console.log('ngOnInit...')
 
       loadRemoteModule('appProducts', './Component').then((m) => {
         const ce = createCustomElement(
@@ -33,6 +33,7 @@ export class AppComponent {
 
       }).catch((err:any) => console.log(err));
      }
-
+ */
+  }
 
 }

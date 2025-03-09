@@ -1,4 +1,4 @@
 {
-	"appProducts": "http://localhost:4202/remoteEntry.json",
-	"appUsers": "http://localhost:4203/remoteEntry.json"
+	"appProducts": "http://localhost:4202/remoteEntry.json"
+
 }

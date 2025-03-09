@@ -63,7 +63,7 @@
 					"options": {
 						"outputPath": "dist/app-store",
 						"index": "projects/app-store/src/index.html",
-						"browser": "projects/app-store/src/main.ts",
+            "browser": "projects/app-store/src/main.ts",
 						"polyfills": [
 							"zone.js",
 							"es-module-shims"
@@ -79,11 +79,7 @@
 							"projects/app-store/src/styles.css"
 						],
 						"scripts": [],
-						"server": "projects/app-store/src/main.server.ts",
-						"prerender": false,
-						"ssr": {
-							"entry": "projects/app-store/src/server.ts"
-						}
+
 					},
 					"configurations": {
 						"production": {
